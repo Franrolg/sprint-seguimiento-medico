@@ -1,0 +1,35 @@
+Página principal pública con información de bondades del sistema, noticias
+relacionadas a área salud e interfaz para registro de nuevo usuario/paciente. Esta
+página debe incluir una barra de navegación fija en la parte superior de la ventana de
+navegación, con enlaces a zonas de acceso público en el sitio.
+2. Perfil de cuenta personal de cada paciente accesible vía email y contraseña, con
+resumen de datos personales: Nombre, Fecha Nacimiento, Dirección, Foto, etc.
+
+
+!!!!!!!! 3. Página principal privada, accesible luego de hacer login, donde se muestra un resumen
+y enlaces de acceso rápido a algunos recursos y datos principales. El resumen
+mostrado en esta página corresponde a componentes o elementos que están en otras
+páginas del sitio, pero que contienen información relevante para ser mostrada en un
+resumen ejecutivo que describa la situación del paciente. Esta página además
+extiende la barra de navegación incluyendo otras zonas de acceso privado del sitio y
+activa una barra de navegación lateral para cada zona establecida en barra superior. !!!!
+
+
+4. Interfaz para creación y administración de usuarios adicionales que puedes visualizar
+y/o administrar la información (Familiares o personal de salud).
+5. Interfaz para ingreso y visualización de datos de enfermedades y condiciones base del
+paciente, indicando diagnóstico, fecha, inicio de tratamientos y otros datos
+importantes.
+6. Interfaz para ingreso y visualización de tablas de históricos de exámenes de distinto
+tipo (Hemograma, perfil lipídico, colesterol, triglicéridos, orina, perfil bioquímico,
+coagulación y otros). Tabla de datos para cáda exámen, al menos los aquí
+mencionados. 4 gráficos chart.js para visualización de datos relevantes: 2 de línea y 2
+de barra.
+7. Interfaz de ingreso y visualización en formato calendario para información de citas
+médicas programadas, fechas de toma de exámenes, etc.
+8. Página de enlaces a proveedores de salud: Hospitales, Clínicas, Ambulancias, Fonasa,
+Isapres, Médicos inscritos
+
+<!-- Para creación de nuevas entradas o edición de filas de datos en tablas de las diversas
+secciones, deben utilizarse modales Bootstrap que se abran al presionar botón de
+crear nueva entrada o editar fila de tabla -->
