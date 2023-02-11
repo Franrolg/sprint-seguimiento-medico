@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
+<div id="calendar"></div>
+<form>
+    <div class="form-group">
+      <label for="eventTitle">Título del evento:</label>
+      <input type="text" class="form-control" id="eventTitle">
+    </div>
+    <div class="form-group">
+      <label for="eventStartDate">Fecha de inicio:</label>
+      <input type="date" class="form-control" id="eventStartDate">
+    </div>
+    <button type="submit" class="btn btn-primary">Agregar evento</button>
+  </form>
+  
+<script>$(document).ready(function() {
+    $('#calendar').fullCalendar({
+      events: [
+        { title: 'Exámen 1', start: '2023-02-10' },
+        { title: 'Cita Médica', start: '2023-02-15' },
+        { title: 'Exámen 2', start: '2023-02-20' },
+      ],
+    });
+  });
+</script>
