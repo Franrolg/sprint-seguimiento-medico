@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Creación de usuarios</h2>
+  <form>
+    <div class="form-group">
+      <label for="nombre-usuario">Nombre:</label>
+      <input type="text" class="form-control" id="nombre-usuario">
+    </div>
+    <div class="form-group">
+      <label for="edad-usuario">Edad:</label>
+      <input type="number" class="form-control" id="edad-usuario">
+    </div>
+    <div class="form-group">
+      <label for="identificacion-usuario">Número de identificación:</label>
+      <input type="text" class="form-control" id="identificacion-usuario">
+    </div>
+    <button type="button" class="btn btn-primary" id="crear-usuario">Crear usuario</button>
+  </form>
+  
+  <h2>Lista de usuarios</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Número de identificación</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody id="lista-usuarios">
+    </tbody>
+  </table>
+</div>
+
+<script src="interfaz_creacion_usuario.js"></script>
