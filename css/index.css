@@ -1,0 +1,57 @@
+body {
+    background: #ffff;
+    font-family: 'Bebas Neue', 'Source Sans Pro', 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+nav img {
+    width: 6em;
+    max-height: 2em;
+}
+
+.seccion-inicial, .seccion-registro, .seccion-ventajas, .seccion-noticias {
+    background-size: cover;
+    background-size: 120% 200%;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.seccion-inicial, .seccion-registro, .seccion-ventajas, .seccion-noticias {
+    min-height: 600px;
+    height: calc(100vh);
+}
+
+.form-control {
+    margin-bottom: 2em;
+}
+
+.btn-registro {
+    max-width: 30%;
+    border-radius: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+.mb-auto {
+    margin-bottom: 0px !important;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    #seccion-noticias img, #ventaja-ocultar {
+        display: none;
+    }
+
+    
+
+}

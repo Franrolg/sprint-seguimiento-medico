@@ -1,9 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
-  <title>Title</title>
-  <!-- Required meta tags -->
+  <title>Seguimiento Médico</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -13,35 +12,313 @@
 
   <!-- JQuery v5.2.1 -->
   <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-  <!-- Librería Chart.js -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Hoja de estilos -->
+  <link rel="stylesheet" href="css/index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 </head>
 
 <body>
-  <header>
-    <!-- place navbar here -->
-  </header>
-  <main>
 
-  </main>
+  <header>
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container-fluid">
+        <div class="col-1 col-md-2 text-center">
+          <a class="navbar-brand" href="index.html"><img src="img/img-prueba.jpg" alt="Logo Fenix Autos"></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav col-md-12">
+            <li class="nav-item col-md-2">
+              <a class="nav-link" href="#">INICIO</a>
+            </li>
+            <li class="nav-item col-md-2">
+              <a class="nav-link" href="#seccion-ventajas">VENTAJAS</a>
+            </li>
+            <li class="nav-item col-md-2">
+              <a class="nav-link" href="#seccion-noticias">NOTICIAS</a>
+            </li>
+            <li class="nav-item col-md-2">
+              <a class="nav-link" href="#seccion-registro">REGISTRO</a>
+            </li>
+            <li class="nav-item col-md-2">
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">LOGIN</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="col-12 seccion-inicial">
+    <div class="container">
+      <div class="row align-items-center seccion-inicial">
+        <div class="col-12 col-md-6 justify-content text-center">
+          <h1>Lorem ipsum dolor</h1>
+          <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda ea quo
+            cupiditate facere deleniti fuga officia. Consectetur adipisicing elit.</p>
+          <div>
+            <a href="#seccion-registro" class="btn btn-primary mr-2 mb-2">Regístrate</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 mb-auto">
+          <img src="img/img-prueba.jpg" class="img-fluid" alt="Imagen">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 seccion-ventajas" id="seccion-ventajas">
+    <div class="container">
+      <div class="row align-items-center seccion-ventajas ">
+        <div class="row pt-auto">
+          <h2 class="mb-4 text-center">Ventajas</h2>
+          <div class="row align-items-stretch">
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init aos-animate" data-aos="fade-up">
+              <div class="unit-4 d-block">
+                <div>
+                  <h3>
+                    Gráficos
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                      class="bi bi-check2-circle" viewBox="0 0 16 16">
+                      <path
+                        d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+                      <path
+                        d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+                    </svg>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi
+                    at.</p>
+                  <p><a href="#">Learn More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <div class="unit-4 d-block">
+                <div>
+                  <h3>
+                    Análisis
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                      class="bi bi-check2-circle" viewBox="0 0 16 16">
+                      <path
+                        d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+                      <path
+                        d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+                    </svg>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi
+                    at.</p>
+                  <p><a href="#">Learn More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init" data-aos="fade-up" data-aos-delay="200">
+              <div class="unit-4 d-block">
+                <div>
+                  <h3>
+                    Fácil de usar
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                      class="bi bi-check2-circle" viewBox="0 0 16 16">
+                      <path
+                        d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+                      <path
+                        d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+                    </svg>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi
+                    at.</p>
+                  <p><a href="#">Learn More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init" data-aos="fade-up">
+              <div class="unit-4 d-block">
+                <div>
+                  <h3>
+                    Actualización gratis
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                      class="bi bi-check2-circle" viewBox="0 0 16 16">
+                      <path
+                        d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+                      <path
+                        d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+                    </svg>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi
+                    at.</p>
+                  <p><a href="#">Learn More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init" data-aos="fade-up" data-aos-delay="100">
+              <div class="unit-4 d-block">
+                <div>
+                  <h3>
+                    Lorem ipsum
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                      class="bi bi-check2-circle" viewBox="0 0 16 16">
+                      <path
+                        d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+                      <path
+                        d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+                    </svg>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi
+                    at.</p>
+                  <p><a href="#">Learn More</a></p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init" data-aos="fade-up" data-aos-delay="200" id="ventaja-ocultar">
+              <div class="unit-4 d-block">
+                <div>
+                  <h3>
+                    Lorem ipsum
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                      class="bi bi-check2-circle" viewBox="0 0 16 16">
+                      <path
+                        d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+                      <path
+                        d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+                    </svg>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi
+                    at.</p>
+                  <p><a href="#">Learn More</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 seccion-noticias" id="seccion-noticias">
+    <div class="container">
+      <div class="row align-items-center seccion-noticias ">
+        <div class="row pt-auto">
+          <h2 class="mb-4 text-center">Noticias</h2>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+              <div class="h-entry">
+                <img src="img/covid.png" alt="Image" class="img-fluid">
+                <h2>COVID-19</h2>
+                <div class="meta mb-4">Ham Brook <span class="mx-2">•</span> Jan 18, 2019<span class="mx-2">•</span></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente
+                  veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                <p><a href="#seccion-noticias">Continuar leyendo...</a></p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+              <div class="h-entry">
+                <img src="img/isapres.jpg" alt="Image" class="img-fluid">
+                <h2>ISAPRE podrían quebrar</h2>
+                <div class="meta mb-4">James Phelps <span class="mx-2">•</span> Jan 18, 2019<span class="mx-2">•</span></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente
+                  veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                <p><a href="#seccion-noticias">Continuar leyendo...</a></p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+              <div class="h-entry">
+                <img src="img/listas-espera.png" alt="Image" class="img-fluid">
+                <h2>Listas de espera</h2>
+                <div class="meta mb-4">James Phelps <span class="mx-2">•</span> Jan 18, 2019<span class="mx-2">•</span></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente
+                  veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                <p><a href="#seccion-noticias">Continuar leyendo...</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 seccion-registro" id="seccion-registro">
+    <div class="container">
+      <div class="row align-items-center seccion-registro ">
+        <div class="row pt-auto">
+          <h2 class="mb-4 text-center">Registro</h2>
+          <div class="col-12 col-md-6">
+            <input type="text" class="form-control" placeholder="Primer nombre" aria-label="Primer nombre">
+          </div>
+          <div class="col-12 col-md-6">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+          </div>
+          <div class="col-12">
+            <input type="text" class="form-control" placeholder="Dirección" aria-label="Dirección">
+          </div>
+          <div class="col-12 col-md-6">
+            <input type="email" class="form-control" placeholder="Email" aria-label="Email">
+          </div>
+          <div class="col-12 col-md-6">
+            <input type="password" class="form-control" placeholder="Contraseña" aria-label="Contraseña">
+          </div>
+          <button type="submit" class="btn btn-primary ms-auto me-auto btn-registro">Registro</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer>
-    <!-- place footer here -->
+
   </footer>
-  <!-- Bootstrap JavaScript Libraries -->
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Inicio de sesión</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="" id="form-inicio-sesion">
+            <div class="inicio-sesion-input">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" placeholder="email">
+                <label for="email">Email</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="password" placeholder="Password">
+                <label for="password">Contraseña</label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <p id="error-inicio-sesion"></p>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary" id="inicio-sesion-btn" form="form-inicio-sesion">Entrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
+    </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+
+  <script src="js/index.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
 </body>
 
 </html>
 
 
-  <!-- 
+<!-- 
 
     CONDICIONES
     - De preferencia todos los elementos usados deben ser bootstrap
@@ -62,6 +339,7 @@
     SITIO WEB
 
     Página principal pública
+    - Librerio AOS https://michalsnik.github.io/aos/
     - información sobre el sistema, sus ventajas
     - noticias sobre el área de salud
     - interfaz para registro de nuevo usuario/paciente
